@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Text_4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Подиряко Анатолій</string>
+    <string name="nav_header_subtitle">podyryakoantoliy@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_schedule">Розклад</string>
+    <string name="menu_new">Новини</string>
+    <string name="menu_time">Час</string>
+    <string name="menu_setting" />
+    <string name="menu_exit" />
+</resources>

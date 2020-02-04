@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Розклад" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Новини" />
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Час" />
+
+    </group>
+
+    <item android:title="Система">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Налаштування" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Вихід" />
+        </menu>
+    </item>
+
+</menu>
